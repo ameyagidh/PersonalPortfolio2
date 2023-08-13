@@ -1,4 +1,4 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +15,9 @@
     scroll-behavior: smooth;
   }
   body {
-    background: #f7f7f7;
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
     font-family: "Roboto", sans-serif;
   }
-  
   *::selection {
     background: #800000;
     color: #fff;
@@ -882,6 +881,7 @@
   .button-area button:hover i {
     left: 8px;
   }
+  
   /* contact section media queries starts */
   @media (max-width: 900px) {
     .contact {
